@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C5D2BB215125100001746F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5D2BA215125100001746F /* AppDelegate.m */; };
+		18C5D2BE215125100001746F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5D2BD215125100001746F /* ViewController.m */; };
+		18C5D2C1215125100001746F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C5D2BF215125100001746F /* Main.storyboard */; };
+		18C5D2C3215125110001746F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C5D2C2215125110001746F /* Assets.xcassets */; };
+		18C5D2C6215125110001746F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C5D2C4215125110001746F /* LaunchScreen.storyboard */; };
+		18C5D2C9215125110001746F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5D2C8215125110001746F /* main.m */; };
+		18C5D2D3215125110001746F /* JiShaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5D2D2215125110001746F /* JiShaTests.m */; };
+		18C5D2DE215125110001746F /* JiShaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5D2DD215125110001746F /* JiShaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C5D2CF215125110001746F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C5D2AE215125100001746F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C5D2B5215125100001746F;
+			remoteInfo = JiSha;
+		};
+		18C5D2DA215125110001746F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C5D2AE215125100001746F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C5D2B5215125100001746F;
+			remoteInfo = JiSha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C5D2B6215125100001746F /* JiSha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiSha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C5D2B9215125100001746F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18C5D2BA215125100001746F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18C5D2BC215125100001746F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18C5D2BD215125100001746F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18C5D2C0215125100001746F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C5D2C2215125110001746F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C5D2C5215125110001746F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C5D2C7215125110001746F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C5D2C8215125110001746F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C5D2CE215125110001746F /* JiShaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiShaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C5D2D2215125110001746F /* JiShaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiShaTests.m; sourceTree = "<group>"; };
+		18C5D2D4215125110001746F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C5D2D9215125110001746F /* JiShaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiShaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C5D2DD215125110001746F /* JiShaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiShaUITests.m; sourceTree = "<group>"; };
+		18C5D2DF215125110001746F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C5D2B3215125100001746F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C5D2CB215125110001746F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C5D2D6215125110001746F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C5D2AD215125100001746F = {
+			isa = PBXGroup;
+			children = (
+				18C5D2B8215125100001746F /* JiSha */,
+				18C5D2D1215125110001746F /* JiShaTests */,
+				18C5D2DC215125110001746F /* JiShaUITests */,
+				18C5D2B7215125100001746F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C5D2B7215125100001746F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C5D2B6215125100001746F /* JiSha.app */,
+				18C5D2CE215125110001746F /* JiShaTests.xctest */,
+				18C5D2D9215125110001746F /* JiShaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C5D2B8215125100001746F /* JiSha */ = {
+			isa = PBXGroup;
+			children = (
+				18C5D2B9215125100001746F /* AppDelegate.h */,
+				18C5D2BA215125100001746F /* AppDelegate.m */,
+				18C5D2BC215125100001746F /* ViewController.h */,
+				18C5D2BD215125100001746F /* ViewController.m */,
+				18C5D2BF215125100001746F /* Main.storyboard */,
+				18C5D2C2215125110001746F /* Assets.xcassets */,
+				18C5D2C4215125110001746F /* LaunchScreen.storyboard */,
+				18C5D2C7215125110001746F /* Info.plist */,
+				18C5D2C8215125110001746F /* main.m */,
+			);
+			path = JiSha;
+			sourceTree = "<group>";
+		};
+		18C5D2D1215125110001746F /* JiShaTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C5D2D2215125110001746F /* JiShaTests.m */,
+				18C5D2D4215125110001746F /* Info.plist */,
+			);
+			path = JiShaTests;
+			sourceTree = "<group>";
+		};
+		18C5D2DC215125110001746F /* JiShaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18C5D2DD215125110001746F /* JiShaUITests.m */,
+				18C5D2DF215125110001746F /* Info.plist */,
+			);
+			path = JiShaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C5D2B5215125100001746F /* JiSha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C5D2E2215125110001746F /* Build configuration list for PBXNativeTarget "JiSha" */;
+			buildPhases = (
+				18C5D2B2215125100001746F /* Sources */,
+				18C5D2B3215125100001746F /* Frameworks */,
+				18C5D2B4215125100001746F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JiSha;
+			productName = JiSha;
+			productReference = 18C5D2B6215125100001746F /* JiSha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C5D2CD215125110001746F /* JiShaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C5D2E5215125110001746F /* Build configuration list for PBXNativeTarget "JiShaTests" */;
+			buildPhases = (
+				18C5D2CA215125110001746F /* Sources */,
+				18C5D2CB215125110001746F /* Frameworks */,
+				18C5D2CC215125110001746F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C5D2D0215125110001746F /* PBXTargetDependency */,
+			);
+			name = JiShaTests;
+			productName = JiShaTests;
+			productReference = 18C5D2CE215125110001746F /* JiShaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18C5D2D8215125110001746F /* JiShaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C5D2E8215125110001746F /* Build configuration list for PBXNativeTarget "JiShaUITests" */;
+			buildPhases = (
+				18C5D2D5215125110001746F /* Sources */,
+				18C5D2D6215125110001746F /* Frameworks */,
+				18C5D2D7215125110001746F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C5D2DB215125110001746F /* PBXTargetDependency */,
+			);
+			name = JiShaUITests;
+			productName = JiShaUITests;
+			productReference = 18C5D2D9215125110001746F /* JiShaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C5D2AE215125100001746F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = yangchangqing;
+				TargetAttributes = {
+					18C5D2B5215125100001746F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					18C5D2CD215125110001746F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 18C5D2B5215125100001746F;
+					};
+					18C5D2D8215125110001746F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 18C5D2B5215125100001746F;
+					};
+				};
+			};
+			buildConfigurationList = 18C5D2B1215125100001746F /* Build configuration list for PBXProject "JiSha" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C5D2AD215125100001746F;
+			productRefGroup = 18C5D2B7215125100001746F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C5D2B5215125100001746F /* JiSha */,
+				18C5D2CD215125110001746F /* JiShaTests */,
+				18C5D2D8215125110001746F /* JiShaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C5D2B4215125100001746F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C5D2C6215125110001746F /* LaunchScreen.storyboard in Resources */,
+				18C5D2C3215125110001746F /* Assets.xcassets in Resources */,
+				18C5D2C1215125100001746F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C5D2CC215125110001746F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C5D2D7215125110001746F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C5D2B2215125100001746F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C5D2BE215125100001746F /* ViewController.m in Sources */,
+				18C5D2C9215125110001746F /* main.m in Sources */,
+				18C5D2BB215125100001746F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C5D2CA215125110001746F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C5D2D3215125110001746F /* JiShaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C5D2D5215125110001746F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C5D2DE215125110001746F /* JiShaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C5D2D0215125110001746F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C5D2B5215125100001746F /* JiSha */;
+			targetProxy = 18C5D2CF215125110001746F /* PBXContainerItemProxy */;
+		};
+		18C5D2DB215125110001746F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C5D2B5215125100001746F /* JiSha */;
+			targetProxy = 18C5D2DA215125110001746F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C5D2BF215125100001746F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C5D2C0215125100001746F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C5D2C4215125110001746F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C5D2C5215125110001746F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C5D2E0215125110001746F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18C5D2E1215125110001746F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C5D2E3215125110001746F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiSha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangcq.test.JiSha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C5D2E4215125110001746F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiSha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangcq.test.JiSha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18C5D2E6215125110001746F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiShaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangcq.test.JiShaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiSha.app/JiSha";
+			};
+			name = Debug;
+		};
+		18C5D2E7215125110001746F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiShaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangcq.test.JiShaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiSha.app/JiSha";
+			};
+			name = Release;
+		};
+		18C5D2E9215125110001746F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiShaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangcq.test.JiShaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JiSha;
+			};
+			name = Debug;
+		};
+		18C5D2EA215125110001746F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiShaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangcq.test.JiShaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JiSha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C5D2B1215125100001746F /* Build configuration list for PBXProject "JiSha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C5D2E0215125110001746F /* Debug */,
+				18C5D2E1215125110001746F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C5D2E2215125110001746F /* Build configuration list for PBXNativeTarget "JiSha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C5D2E3215125110001746F /* Debug */,
+				18C5D2E4215125110001746F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C5D2E5215125110001746F /* Build configuration list for PBXNativeTarget "JiShaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C5D2E6215125110001746F /* Debug */,
+				18C5D2E7215125110001746F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C5D2E8215125110001746F /* Build configuration list for PBXNativeTarget "JiShaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C5D2E9215125110001746F /* Debug */,
+				18C5D2EA215125110001746F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C5D2AE215125100001746F /* Project object */;
+}
