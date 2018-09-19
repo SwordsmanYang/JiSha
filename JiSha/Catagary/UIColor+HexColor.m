@@ -10,19 +10,16 @@
 
 @implementation UIColor (HexColor)
 
-+ (UIColor *)HexColorSixteen:(NSString *)hexColor
-{
++ (UIColor *)HexColorSixteen:(NSString *)hexColor{
+    
     unsigned int red,green,blue;
     NSRange range;
     range.length = 2;
-    
     range.location = 0;
     
     [[NSScanner scannerWithString:[hexColor substringWithRange:range]] scanHexInt:&red];
-    
     range.location = 2;
     [[NSScanner scannerWithString:[hexColor substringWithRange:range]] scanHexInt:&green];
-    
     range.location = 4;
     [[NSScanner scannerWithString:[hexColor substringWithRange:range]] scanHexInt:&blue];
     
