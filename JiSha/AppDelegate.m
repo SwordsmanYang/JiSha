@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <AVOSCloud/AVOSCloud.h>
 
 @interface AppDelegate ()
 
@@ -16,10 +17,24 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //配置AVOSCloud
+    [self configAVOSCloud];
+    
+    //配置App
+    [self configApp];
+    
     return YES;
 }
 
+- (void)configAVOSCloud{
+    //初始化AVOSCloud
+    [AVOSCloud setApplicationId:@"R8sQeemOLXCxvPj2AMUHA5nM-gzGzoHsz" clientKey:@"VmjJKgAQDrdv8oJSzPjzbmGF"];
+}
+
+- (void)configApp{
+    
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

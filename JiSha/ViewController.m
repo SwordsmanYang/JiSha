@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <AVOSCloud/AVOSCloud.h>
 
 @interface ViewController ()
 
@@ -16,9 +17,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self testAVOSCloud];
 }
 
+- (void)testAVOSCloud{
+    
+}
+- (IBAction)dataUpload:(UIButton *)sender {
+    AVObject *testObject = [AVObject objectWithClassName:@"qing"];
+    [testObject setObject:@"qing233" forKey:@"momey"];
+    [testObject save];
+}
+- (IBAction)dataDownload:(UIButton *)sender {
+    AVQuery *query = [AVQuery queryWithClassName:@"qing"];
+    [query includeKey:@"money"];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        if (!error) {
+
+        }
+    }];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
