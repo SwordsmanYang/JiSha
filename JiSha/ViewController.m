@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <AVOSCloud/AVOSCloud.h>
 
 @interface ViewController ()
 
@@ -16,10 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-//    self.view.backgroundColor = 
+    [self testAVOSCloud];
 }
 
+- (void)testAVOSCloud{
+    AVObject *testObject = [AVObject objectWithClassName:@"LotOfmomey"];
+    [testObject setObject:@"qing" forKey:@"momey"];
+    [testObject save];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
