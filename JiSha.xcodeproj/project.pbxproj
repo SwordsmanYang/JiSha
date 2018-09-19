@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1864C3942151D7500076254A /* JiShaBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1864C3932151D7500076254A /* JiShaBaseViewController.m */; };
+		1864C39B2151DD9F0076254A /* JiShaAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1864C39A2151DD9F0076254A /* JiShaAlertView.m */; };
+		1864C39E2151DE760076254A /* JiShaConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1864C39D2151DE760076254A /* JiShaConfig.m */; };
+		1864C3A12151DE8D0076254A /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1864C3A02151DE8D0076254A /* UIColor+HexColor.m */; };
 		18C5D2BB215125100001746F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5D2BA215125100001746F /* AppDelegate.m */; };
 		18C5D2BE215125100001746F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5D2BD215125100001746F /* ViewController.m */; };
 		18C5D2C1215125100001746F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C5D2BF215125100001746F /* Main.storyboard */; };
@@ -36,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1864C3922151D7500076254A /* JiShaBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiShaBaseViewController.h; sourceTree = "<group>"; };
+		1864C3932151D7500076254A /* JiShaBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiShaBaseViewController.m; sourceTree = "<group>"; };
+		1864C3962151D9BF0076254A /* JiShaHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiShaHeader.h; sourceTree = "<group>"; };
+		1864C3992151DD9F0076254A /* JiShaAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiShaAlertView.h; sourceTree = "<group>"; };
+		1864C39A2151DD9F0076254A /* JiShaAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiShaAlertView.m; sourceTree = "<group>"; };
+		1864C39C2151DE760076254A /* JiShaConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiShaConfig.h; sourceTree = "<group>"; };
+		1864C39D2151DE760076254A /* JiShaConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiShaConfig.m; sourceTree = "<group>"; };
+		1864C39F2151DE8D0076254A /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		1864C3A02151DE8D0076254A /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
 		18C5D2B6215125100001746F /* JiSha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiSha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C5D2B9215125100001746F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18C5D2BA215125100001746F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,6 +96,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1864C3902151D5520076254A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1864C39C2151DE760076254A /* JiShaConfig.h */,
+				1864C39D2151DE760076254A /* JiShaConfig.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		1864C3912151D7200076254A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1864C3922151D7500076254A /* JiShaBaseViewController.h */,
+				1864C3932151D7500076254A /* JiShaBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1864C3952151D7630076254A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1864C3962151D9BF0076254A /* JiShaHeader.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1864C3972151D9D50076254A /* PublicView */ = {
+			isa = PBXGroup;
+			children = (
+				1864C3992151DD9F0076254A /* JiShaAlertView.h */,
+				1864C39A2151DD9F0076254A /* JiShaAlertView.m */,
+			);
+			path = PublicView;
+			sourceTree = "<group>";
+		};
+		1864C3982151DB840076254A /* Catagary */ = {
+			isa = PBXGroup;
+			children = (
+				1864C39F2151DE8D0076254A /* UIColor+HexColor.h */,
+				1864C3A02151DE8D0076254A /* UIColor+HexColor.m */,
+			);
+			path = Catagary;
+			sourceTree = "<group>";
+		};
 		18C5D2AD215125100001746F = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +165,11 @@
 		18C5D2B8215125100001746F /* JiSha */ = {
 			isa = PBXGroup;
 			children = (
+				1864C3982151DB840076254A /* Catagary */,
+				1864C3902151D5520076254A /* Config */,
+				1864C3912151D7200076254A /* Base */,
+				1864C3952151D7630076254A /* Common */,
+				1864C3972151D9D50076254A /* PublicView */,
 				18C5D2B9215125100001746F /* AppDelegate.h */,
 				18C5D2BA215125100001746F /* AppDelegate.m */,
 				18C5D2BC215125100001746F /* ViewController.h */,
@@ -309,10 +371,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-JiSha/Pods-JiSha-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AVOSCloud/AVOSCloud.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AVOSCloud.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,9 +391,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1864C3A12151DE8D0076254A /* UIColor+HexColor.m in Sources */,
 				18C5D2BE215125100001746F /* ViewController.m in Sources */,
+				1864C3942151D7500076254A /* JiShaBaseViewController.m in Sources */,
 				18C5D2C9215125110001746F /* main.m in Sources */,
+				1864C39E2151DE760076254A /* JiShaConfig.m in Sources */,
 				18C5D2BB215125100001746F /* AppDelegate.m in Sources */,
+				1864C39B2151DD9F0076254A /* JiShaAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
