@@ -21,9 +21,21 @@
 }
 
 - (void)testAVOSCloud{
-    AVObject *testObject = [AVObject objectWithClassName:@"LotOfmomey"];
-    [testObject setObject:@"qing" forKey:@"momey"];
+    
+}
+- (IBAction)dataUpload:(UIButton *)sender {
+    AVObject *testObject = [AVObject objectWithClassName:@"qing"];
+    [testObject setObject:@"qing233" forKey:@"momey"];
     [testObject save];
+}
+- (IBAction)dataDownload:(UIButton *)sender {
+    AVQuery *query = [AVQuery queryWithClassName:@"qing"];
+    [query includeKey:@"money"];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        if (!error) {
+
+        }
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
