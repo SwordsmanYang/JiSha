@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8973DCF1DA2E109F5915FA22A87EC894"
-               BlueprintName = "SDWebImage"
+               BlueprintIdentifier = "C28B0E8E4B686D3A8C089EB83AA6FD18"
+               BlueprintName = "AVOSCloud"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "SDWebImage.framework">
+               BuildableName = "AVOSCloud.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
