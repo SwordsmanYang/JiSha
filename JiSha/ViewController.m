@@ -28,6 +28,7 @@
     [testObject setObject:@"qing233" forKey:@"momey"];
     [testObject save];
 }
+
 - (IBAction)dataDownload:(UIButton *)sender {
     AVQuery *query = [AVQuery queryWithClassName:@"qing"];
     [query includeKey:@"money"];

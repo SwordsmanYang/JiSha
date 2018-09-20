@@ -1,22 +1,28 @@
 PODS:
   - AVOSCloud (11.4.2)
+  - Charts (3.2.0):
+    - Charts/Core (= 3.2.0)
+  - Charts/Core (3.2.0)
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
 
 DEPENDENCIES:
   - AVOSCloud
+  - Charts
   - SDWebImage
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AVOSCloud
+    - Charts
     - SDWebImage
 
 SPEC CHECKSUMS:
   AVOSCloud: 8f32dc912c5529d231155e0953a40a9e3f44ce0e
+  Charts: 680c8328bd5e90cb14f67e00d2176f3113d19141
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
 
-PODFILE CHECKSUM: c9c40f13143bf424bc0118de3d042ad989993e86
+PODFILE CHECKSUM: 263c3825277fca11afe59c4449f2779ce8c34e44
 
 COCOAPODS: 1.5.3
