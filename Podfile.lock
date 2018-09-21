@@ -9,7 +9,7 @@ DEPENDENCIES:
   - SDWebImage
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AVOSCloud
     - SDWebImage
 
@@ -19,4 +19,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 8990ba895500139eda329915a824c37327dbe02d
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.5.0
