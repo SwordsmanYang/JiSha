@@ -24,13 +24,13 @@
     
 }
 - (IBAction)dataUpload:(UIButton *)sender {
-    AVObject *testObject = [AVObject objectWithClassName:@"qing"];
-    [testObject setObject:@"qing233" forKey:@"momey"];
+    AVObject *testObject = [AVObject objectWithClassName:@"dzj"];
+    [testObject setObject:@"dzjzzz" forKey:@"momey"];
     [testObject save];
 }
 
 - (IBAction)dataDownload:(UIButton *)sender {
-    AVQuery *query = [AVQuery queryWithClassName:@"qing"];
+    AVQuery *query = [AVQuery queryWithClassName:@"dzj"];
     [query includeKey:@"money"];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (!error) {

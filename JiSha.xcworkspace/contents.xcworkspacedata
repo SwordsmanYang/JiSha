@@ -7,4 +7,13 @@
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:QingDataManager/QingDataManager.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:QingViews/QingViews.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:QingTools/QingTools.xcodeproj">
+   </FileRef>
 </Workspace>
