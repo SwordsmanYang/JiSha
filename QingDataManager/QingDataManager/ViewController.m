@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <AVOSCloud/AVOSCloud.h>
 
 @interface ViewController ()
 

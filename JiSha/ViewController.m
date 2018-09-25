@@ -8,8 +8,11 @@
 
 #import "ViewController.h"
 #import <AVOSCloud/AVOSCloud.h>
+#import "LoginView.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong)LoginView *loginView;
 
 @end
 
@@ -17,7 +20,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self layoutUI];
     [self testAVOSCloud];
+}
+
+- (void)layoutUI{
+    [self.view addSubview:self.loginView];
 }
 
 - (void)testAVOSCloud{
@@ -44,5 +52,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (LoginView *)loginView{
+    if (!_loginView) {
+        _loginView = [[LoginView alloc] init];
+    }
+    return _loginView;
+}
 
 @end

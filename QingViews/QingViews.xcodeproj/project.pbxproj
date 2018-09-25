@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		18B63C212159C5E100263653 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B63C202159C5E100263653 /* AppDelegate.m */; };
-		18B63C242159C5E100263653 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B63C232159C5E100263653 /* ViewController.m */; };
 		18B63C272159C5E100263653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B63C252159C5E100263653 /* Main.storyboard */; };
 		18B63C292159C5E300263653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B63C282159C5E300263653 /* Assets.xcassets */; };
 		18B63C2C2159C5E300263653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B63C2A2159C5E300263653 /* LaunchScreen.storyboard */; };
 		18B63C2F2159C5E300263653 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B63C2E2159C5E300263653 /* main.m */; };
 		18B63C392159C5E300263653 /* QingViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B63C382159C5E300263653 /* QingViewsTests.m */; };
 		18B63C442159C5E300263653 /* QingViewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B63C432159C5E300263653 /* QingViewsUITests.m */; };
+		18E79FE72159DDE600D0724C /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E79FE52159DDE600D0724C /* FBShimmeringLayer.m */; };
+		18E79FE82159DDE600D0724C /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E79FE62159DDE600D0724C /* FBShimmeringView.m */; };
+		18E79FEE2159E62500D0724C /* CoreTextMainVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E79FEC2159E62500D0724C /* CoreTextMainVCViewController.m */; };
+		18E79FEF2159E62500D0724C /* CoreTextMainVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E79FED2159E62500D0724C /* CoreTextMainVCViewController.xib */; };
+		18E79FF2215A03D800D0724C /* SJShimmeringText.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E79FF1215A03D800D0724C /* SJShimmeringText.m */; };
+		18E79FF6215A139600D0724C /* QingViewsRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E79FF4215A139600D0724C /* QingViewsRootVC.m */; };
+		18E79FF7215A139600D0724C /* QingViewsRootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E79FF5215A139600D0724C /* QingViewsRootVC.xib */; };
+		18E79FFF215A1F8A00D0724C /* CoreAniMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E79FFD215A1F8A00D0724C /* CoreAniMainVC.m */; };
+		18E7A000215A1F8A00D0724C /* CoreAniMainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E79FFE215A1F8A00D0724C /* CoreAniMainVC.xib */; };
+		18E7A002215A204B00D0724C /* clock1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18E7A001215A204B00D0724C /* clock1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,35 +41,12 @@
 			remoteGlobalIDString = 18B63C1B2159C5E100263653;
 			remoteInfo = QingViews;
 		};
-		18B63D4F2159C7D300263653 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 18B63D492159C7D100263653 /* QingDataManager.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18B63D142159C7D000263653;
-			remoteInfo = QingDataManager;
-		};
-		18B63D512159C7D300263653 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 18B63D492159C7D100263653 /* QingDataManager.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18B63D2C2159C7D100263653;
-			remoteInfo = QingDataManagerTests;
-		};
-		18B63D532159C7D300263653 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 18B63D492159C7D100263653 /* QingDataManager.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 18B63D372159C7D100263653;
-			remoteInfo = QingDataManagerUITests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		18B63C1C2159C5E100263653 /* QingViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QingViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B63C1F2159C5E100263653 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18B63C202159C5E100263653 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18B63C222159C5E100263653 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18B63C232159C5E100263653 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18B63C262159C5E100263653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18B63C282159C5E300263653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B63C2B2159C5E300263653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -72,7 +58,23 @@
 		18B63C3F2159C5E300263653 /* QingViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QingViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B63C432159C5E300263653 /* QingViewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QingViewsUITests.m; sourceTree = "<group>"; };
 		18B63C452159C5E300263653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18B63D492159C7D100263653 /* QingDataManager.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QingDataManager.xcodeproj; path = QingDataManager/QingDataManager.xcodeproj; sourceTree = "<group>"; };
+		18E79FE22159DDE600D0724C /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		18E79FE32159DDE600D0724C /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		18E79FE42159DDE600D0724C /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		18E79FE52159DDE600D0724C /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
+		18E79FE62159DDE600D0724C /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
+		18E79FEB2159E62500D0724C /* CoreTextMainVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreTextMainVCViewController.h; sourceTree = "<group>"; };
+		18E79FEC2159E62500D0724C /* CoreTextMainVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreTextMainVCViewController.m; sourceTree = "<group>"; };
+		18E79FED2159E62500D0724C /* CoreTextMainVCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoreTextMainVCViewController.xib; sourceTree = "<group>"; };
+		18E79FF0215A03D800D0724C /* SJShimmeringText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJShimmeringText.h; sourceTree = "<group>"; };
+		18E79FF1215A03D800D0724C /* SJShimmeringText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJShimmeringText.m; sourceTree = "<group>"; };
+		18E79FF3215A139600D0724C /* QingViewsRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QingViewsRootVC.h; sourceTree = "<group>"; };
+		18E79FF4215A139600D0724C /* QingViewsRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QingViewsRootVC.m; sourceTree = "<group>"; };
+		18E79FF5215A139600D0724C /* QingViewsRootVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QingViewsRootVC.xib; sourceTree = "<group>"; };
+		18E79FFC215A1F8A00D0724C /* CoreAniMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAniMainVC.h; sourceTree = "<group>"; };
+		18E79FFD215A1F8A00D0724C /* CoreAniMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAniMainVC.m; sourceTree = "<group>"; };
+		18E79FFE215A1F8A00D0724C /* CoreAniMainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoreAniMainVC.xib; sourceTree = "<group>"; };
+		18E7A001215A204B00D0724C /* clock1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clock1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,14 +125,18 @@
 		18B63C1E2159C5E100263653 /* QingViews */ = {
 			isa = PBXGroup;
 			children = (
-				18B63D492159C7D100263653 /* QingDataManager.xcodeproj */,
+				18E7A003215A205100D0724C /* Sourse */,
+				18E79FE92159E3D700D0724C /* UI */,
+				18E79FFA215A1C5D00D0724C /* CoreAni */,
+				18E79FE02159DD7400D0724C /* CoreText */,
 				18B63C1F2159C5E100263653 /* AppDelegate.h */,
 				18B63C202159C5E100263653 /* AppDelegate.m */,
-				18B63C222159C5E100263653 /* ViewController.h */,
-				18B63C232159C5E100263653 /* ViewController.m */,
-				18B63C252159C5E100263653 /* Main.storyboard */,
+				18E79FF3215A139600D0724C /* QingViewsRootVC.h */,
+				18E79FF4215A139600D0724C /* QingViewsRootVC.m */,
+				18E79FF5215A139600D0724C /* QingViewsRootVC.xib */,
 				18B63C282159C5E300263653 /* Assets.xcassets */,
 				18B63C2A2159C5E300263653 /* LaunchScreen.storyboard */,
+				18B63C252159C5E100263653 /* Main.storyboard */,
 				18B63C2D2159C5E300263653 /* Info.plist */,
 				18B63C2E2159C5E300263653 /* main.m */,
 			);
@@ -155,14 +161,71 @@
 			path = QingViewsUITests;
 			sourceTree = "<group>";
 		};
-		18B63D4A2159C7D100263653 /* Products */ = {
+		18E79FE02159DD7400D0724C /* CoreText */ = {
 			isa = PBXGroup;
 			children = (
-				18B63D502159C7D300263653 /* QingDataManager.app */,
-				18B63D522159C7D300263653 /* QingDataManagerTests.xctest */,
-				18B63D542159C7D300263653 /* QingDataManagerUITests.xctest */,
+				18E79FE12159DDE600D0724C /* FBShimmering */,
+				18E79FEA2159E46100D0724C /* CoreTextVC */,
 			);
-			name = Products;
+			path = CoreText;
+			sourceTree = "<group>";
+		};
+		18E79FE12159DDE600D0724C /* FBShimmering */ = {
+			isa = PBXGroup;
+			children = (
+				18E79FE22159DDE600D0724C /* FBShimmering.h */,
+				18E79FE32159DDE600D0724C /* FBShimmeringLayer.h */,
+				18E79FE52159DDE600D0724C /* FBShimmeringLayer.m */,
+				18E79FE42159DDE600D0724C /* FBShimmeringView.h */,
+				18E79FE62159DDE600D0724C /* FBShimmeringView.m */,
+				18E79FF0215A03D800D0724C /* SJShimmeringText.h */,
+				18E79FF1215A03D800D0724C /* SJShimmeringText.m */,
+			);
+			name = FBShimmering;
+			path = "../../../../../../Downloads/SoldierShimmering-master 2/SoldierShimmering/FBShimmering";
+			sourceTree = "<group>";
+		};
+		18E79FE92159E3D700D0724C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		18E79FEA2159E46100D0724C /* CoreTextVC */ = {
+			isa = PBXGroup;
+			children = (
+				18E79FEB2159E62500D0724C /* CoreTextMainVCViewController.h */,
+				18E79FEC2159E62500D0724C /* CoreTextMainVCViewController.m */,
+				18E79FED2159E62500D0724C /* CoreTextMainVCViewController.xib */,
+			);
+			path = CoreTextVC;
+			sourceTree = "<group>";
+		};
+		18E79FFA215A1C5D00D0724C /* CoreAni */ = {
+			isa = PBXGroup;
+			children = (
+				18E79FFB215A1F6200D0724C /* CoreAniVC */,
+			);
+			path = CoreAni;
+			sourceTree = "<group>";
+		};
+		18E79FFB215A1F6200D0724C /* CoreAniVC */ = {
+			isa = PBXGroup;
+			children = (
+				18E79FFC215A1F8A00D0724C /* CoreAniMainVC.h */,
+				18E79FFD215A1F8A00D0724C /* CoreAniMainVC.m */,
+				18E79FFE215A1F8A00D0724C /* CoreAniMainVC.xib */,
+			);
+			path = CoreAniVC;
+			sourceTree = "<group>";
+		};
+		18E7A003215A205100D0724C /* Sourse */ = {
+			isa = PBXGroup;
+			children = (
+				18E7A001215A204B00D0724C /* clock1.jpg */,
+			);
+			path = Sourse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,12 +317,6 @@
 			mainGroup = 18B63C132159C5E100263653;
 			productRefGroup = 18B63C1D2159C5E100263653 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 18B63D4A2159C7D100263653 /* Products */;
-					ProjectRef = 18B63D492159C7D100263653 /* QingDataManager.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				18B63C1B2159C5E100263653 /* QingViews */,
@@ -269,38 +326,18 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		18B63D502159C7D300263653 /* QingDataManager.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = QingDataManager.app;
-			remoteRef = 18B63D4F2159C7D300263653 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		18B63D522159C7D300263653 /* QingDataManagerTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = QingDataManagerTests.xctest;
-			remoteRef = 18B63D512159C7D300263653 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		18B63D542159C7D300263653 /* QingDataManagerUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = QingDataManagerUITests.xctest;
-			remoteRef = 18B63D532159C7D300263653 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		18B63C1A2159C5E100263653 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E7A002215A204B00D0724C /* clock1.jpg in Resources */,
+				18E79FEF2159E62500D0724C /* CoreTextMainVCViewController.xib in Resources */,
 				18B63C2C2159C5E300263653 /* LaunchScreen.storyboard in Resources */,
 				18B63C292159C5E300263653 /* Assets.xcassets in Resources */,
+				18E79FF7215A139600D0724C /* QingViewsRootVC.xib in Resources */,
 				18B63C272159C5E100263653 /* Main.storyboard in Resources */,
+				18E7A000215A1F8A00D0724C /* CoreAniMainVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,9 +362,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B63C242159C5E100263653 /* ViewController.m in Sources */,
 				18B63C2F2159C5E300263653 /* main.m in Sources */,
+				18E79FFF215A1F8A00D0724C /* CoreAniMainVC.m in Sources */,
+				18E79FE72159DDE600D0724C /* FBShimmeringLayer.m in Sources */,
+				18E79FE82159DDE600D0724C /* FBShimmeringView.m in Sources */,
+				18E79FEE2159E62500D0724C /* CoreTextMainVCViewController.m in Sources */,
 				18B63C212159C5E100263653 /* AppDelegate.m in Sources */,
+				18E79FF6215A139600D0724C /* QingViewsRootVC.m in Sources */,
+				18E79FF2215A03D800D0724C /* SJShimmeringText.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

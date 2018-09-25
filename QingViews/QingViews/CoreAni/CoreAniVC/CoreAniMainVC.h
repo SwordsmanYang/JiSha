@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CoreAniMainVC.h
 //  QingViews
 //
 //  Created by yangcq on 2018/9/25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CoreAniMainVC : UIViewController
 
 @end
-

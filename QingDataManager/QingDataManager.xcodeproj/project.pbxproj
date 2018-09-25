@@ -15,6 +15,7 @@
 		18B63D712159C84200263653 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B63D702159C84200263653 /* main.m */; };
 		18B63D7B2159C84300263653 /* QingDataManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B63D7A2159C84300263653 /* QingDataManagerTests.m */; };
 		18B63D862159C84300263653 /* QingDataManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B63D852159C84300263653 /* QingDataManagerUITests.m */; };
+		18E79FDF2159DC3300D0724C /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E79FDE2159DC3300D0724C /* AVOSCloud.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		18B63D812159C84300263653 /* QingDataManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QingDataManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B63D852159C84300263653 /* QingDataManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QingDataManagerUITests.m; sourceTree = "<group>"; };
 		18B63D872159C84300263653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E79FDE2159DC3300D0724C /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E79FDF2159DC3300D0724C /* AVOSCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		18B63D552159C84200263653 = {
 			isa = PBXGroup;
 			children = (
+				18E79FDE2159DC3300D0724C /* AVOSCloud.framework */,
 				18B63D602159C84200263653 /* QingDataManager */,
 				18B63D792159C84300263653 /* QingDataManagerTests */,
 				18B63D842159C84300263653 /* QingDataManagerUITests */,
@@ -434,6 +438,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = QingDataManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +458,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = QingDataManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
