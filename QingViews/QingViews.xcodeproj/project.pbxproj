@@ -24,6 +24,7 @@
 		18E79FFF215A1F8A00D0724C /* CoreAniMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E79FFD215A1F8A00D0724C /* CoreAniMainVC.m */; };
 		18E7A000215A1F8A00D0724C /* CoreAniMainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E79FFE215A1F8A00D0724C /* CoreAniMainVC.xib */; };
 		18E7A002215A204B00D0724C /* clock1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18E7A001215A204B00D0724C /* clock1.jpg */; };
+		18E7A007215A233500D0724C /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7A006215A233500D0724C /* ClockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		18E79FFD215A1F8A00D0724C /* CoreAniMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAniMainVC.m; sourceTree = "<group>"; };
 		18E79FFE215A1F8A00D0724C /* CoreAniMainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoreAniMainVC.xib; sourceTree = "<group>"; };
 		18E7A001215A204B00D0724C /* clock1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clock1.jpg; sourceTree = "<group>"; };
+		18E7A005215A233500D0724C /* ClockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
+		18E7A006215A233500D0724C /* ClockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +216,7 @@
 		18E79FFB215A1F6200D0724C /* CoreAniVC */ = {
 			isa = PBXGroup;
 			children = (
+				18E7A004215A230700D0724C /* ClockView */,
 				18E79FFC215A1F8A00D0724C /* CoreAniMainVC.h */,
 				18E79FFD215A1F8A00D0724C /* CoreAniMainVC.m */,
 				18E79FFE215A1F8A00D0724C /* CoreAniMainVC.xib */,
@@ -226,6 +230,15 @@
 				18E7A001215A204B00D0724C /* clock1.jpg */,
 			);
 			path = Sourse;
+			sourceTree = "<group>";
+		};
+		18E7A004215A230700D0724C /* ClockView */ = {
+			isa = PBXGroup;
+			children = (
+				18E7A005215A233500D0724C /* ClockView.h */,
+				18E7A006215A233500D0724C /* ClockView.m */,
+			);
+			path = ClockView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E7A007215A233500D0724C /* ClockView.m in Sources */,
 				18B63C2F2159C5E300263653 /* main.m in Sources */,
 				18E79FFF215A1F8A00D0724C /* CoreAniMainVC.m in Sources */,
 				18E79FE72159DDE600D0724C /* FBShimmeringLayer.m in Sources */,
