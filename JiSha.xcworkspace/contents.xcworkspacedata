@@ -16,4 +16,7 @@
    <FileRef
       location = "group:QingTools/QingTools.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Resource/Resource.xcodeproj">
+   </FileRef>
 </Workspace>
