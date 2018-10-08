@@ -1,22 +1,22 @@
 //
-//  ViewController.m
+//  JiShaRootVC.m
 //  JiSha
 //
-//  Created by yangcq on 2018/9/18.
+//  Created by yangcq on 2018/9/29.
 //  Copyright © 2018年 yangchangqing. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "JiShaRootVC.h"
 #import <AVOSCloud/AVOSCloud.h>
-#import "LoginView.h"
+#import "JiShaLoginVC.h"
+#import "ClockView.h"
 
-@interface ViewController ()
-
-@property (nonatomic, strong)LoginView *loginView;
-
+@interface JiShaRootVC ()
+@property (weak, nonatomic) IBOutlet UIButton *dataUpdateBtn;
+@property (weak, nonatomic) IBOutlet UIButton *dataDownloadBtn;
 @end
 
-@implementation ViewController
+@implementation JiShaRootVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,25 +24,32 @@
     [self testAVOSCloud];
 }
 
+- (void)viewWillAppear:(BOOL)animated{
+//    self.navigationController.navigationBar.hidden = NO;
+}
+
 - (void)layoutUI{
-    [self.view addSubview:self.loginView];
+    self.view.backgroundColor = [UIColor darkGrayColor];
+    [self.navigationController pushViewController:[JiShaLoginVC new] animated:NO];
+    ClockView *clockView = [[ClockView alloc] init];
+    clockView.frame = CGRectMake(self.view.frame.size.width / 2 - 100, 300, 200, 200);
+    [self.view addSubview:clockView];
 }
 
 - (void)testAVOSCloud{
     
 }
-- (IBAction)dataUpload:(UIButton *)sender {
+- (IBAction)dataUpdate:(UIButton *)sender {
     AVObject *testObject = [AVObject objectWithClassName:@"dzj"];
     [testObject setObject:@"dzjzzz" forKey:@"momey"];
     [testObject save];
 }
-
 - (IBAction)dataDownload:(UIButton *)sender {
     AVQuery *query = [AVQuery queryWithClassName:@"dzj"];
     [query includeKey:@"money"];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (!error) {
-
+            
         }
     }];
 }
@@ -50,13 +57,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (LoginView *)loginView{
-    if (!_loginView) {
-        _loginView = [[LoginView alloc] init];
-    }
-    return _loginView;
 }
 
 @end

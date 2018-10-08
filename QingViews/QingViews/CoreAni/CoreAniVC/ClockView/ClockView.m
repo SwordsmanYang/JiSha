@@ -8,8 +8,6 @@
 
 #import "ClockView.h"
 
-
-
 @implementation ClockView
 
 - (instancetype)init

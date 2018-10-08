@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <AVOSCloud/AVOSCloud.h>
+#import "JiShaRootVC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.viewController = [[JiShaRootVC alloc] init];
+    self.window.rootViewController  = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    self.window.backgroundColor     = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     
     //配置AVOSCloud
     [self configAVOSCloud];

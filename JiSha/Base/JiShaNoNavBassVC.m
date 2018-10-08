@@ -1,22 +1,22 @@
 //
-//  JiShaBaseViewController.m
+//  JiShaNoNavBassVC.m
 //  JiSha
 //
-//  Created by yangcq on 2018/9/19.
+//  Created by yangcq on 2018/9/29.
 //  Copyright © 2018年 yangchangqing. All rights reserved.
 //
 
-#import "JiShaBaseViewController.h"
+#import "JiShaNoNavBassVC.h"
 
-@interface JiShaBaseViewController ()
+@interface JiShaNoNavBassVC ()
 
 @end
 
-@implementation JiShaBaseViewController
+@implementation JiShaNoNavBassVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {
