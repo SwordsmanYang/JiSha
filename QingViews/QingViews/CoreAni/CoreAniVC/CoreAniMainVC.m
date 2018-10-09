@@ -11,10 +11,6 @@
 
 @interface CoreAniMainVC ()
 
-@property(weak,nonatomic)UIView *secondHandView;
-@property(weak,nonatomic)UIView *minuteHandView;
-@property(weak,nonatomic)UIView *hourHandView;
-
 @end
 
 @implementation CoreAniMainVC
@@ -27,8 +23,9 @@
 
 - (void)layoutQingClockUI{
     ClockView *clockView = [[ClockView alloc] init];
-    clockView.frame = CGRectMake(self.view.frame.size.width / 2, 300, 200, 200);
+    clockView.frame = CGRectMake(self.view.frame.size.width / 2 - 100, 300, 200, 200);
     [self.view addSubview:clockView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
