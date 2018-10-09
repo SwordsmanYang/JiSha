@@ -7,32 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1864C3942151D7500076254A /* JiShaBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1864C3932151D7500076254A /* JiShaBaseViewController.m */; };
+		18359A4C215F6E4C00E863DB /* JiShaRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18359A4A215F6E4C00E863DB /* JiShaRootVC.m */; };
+		18359A4D215F6E4C00E863DB /* JiShaRootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18359A4B215F6E4C00E863DB /* JiShaRootVC.xib */; };
+		18359A51215F752D00E863DB /* JiShaBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18359A4F215F752D00E863DB /* JiShaBaseVC.m */; };
+		18359A52215F752D00E863DB /* JiShaBaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18359A50215F752D00E863DB /* JiShaBaseVC.xib */; };
+		18359A56215F75B000E863DB /* JiShaNoNavBassVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18359A54215F75B000E863DB /* JiShaNoNavBassVC.m */; };
+		18359A57215F75B000E863DB /* JiShaNoNavBassVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18359A55215F75B000E863DB /* JiShaNoNavBassVC.xib */; };
+		18359A5B215F75DE00E863DB /* JiShaLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18359A59215F75DE00E863DB /* JiShaLoginVC.m */; };
+		18359A5C215F75DE00E863DB /* JiShaLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18359A5A215F75DE00E863DB /* JiShaLoginVC.xib */; };
+		18359A5E215F761D00E863DB /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 18359A5D215F761D00E863DB /* login.png */; };
+		18359A60215F79E800E863DB /* clock1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18359A5F215F79E800E863DB /* clock1.jpg */; };
+		18359A65215F7A3500E863DB /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18359A63215F7A3500E863DB /* ClockView.m */; };
+		18359A70215F828800E863DB /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18359A6D215F828800E863DB /* FBShimmeringLayer.m */; };
+		18359A71215F828800E863DB /* SJShimmeringText.m in Sources */ = {isa = PBXBuildFile; fileRef = 18359A6E215F828800E863DB /* SJShimmeringText.m */; };
+		18359A72215F828800E863DB /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18359A6F215F828800E863DB /* FBShimmeringView.m */; };
 		1864C39B2151DD9F0076254A /* JiShaAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1864C39A2151DD9F0076254A /* JiShaAlertView.m */; };
 		1864C39E2151DE760076254A /* JiShaConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1864C39D2151DE760076254A /* JiShaConfig.m */; };
 		1864C3A12151DE8D0076254A /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1864C3A02151DE8D0076254A /* UIColor+HexColor.m */; };
 		18C5D2BB215125100001746F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5D2BA215125100001746F /* AppDelegate.m */; };
-		18C5D2BE215125100001746F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5D2BD215125100001746F /* ViewController.m */; };
 		18C5D2C1215125100001746F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C5D2BF215125100001746F /* Main.storyboard */; };
 		18C5D2C3215125110001746F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C5D2C2215125110001746F /* Assets.xcassets */; };
 		18C5D2C6215125110001746F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C5D2C4215125110001746F /* LaunchScreen.storyboard */; };
 		18C5D2C9215125110001746F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5D2C8215125110001746F /* main.m */; };
 		18C5D2D3215125110001746F /* JiShaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5D2D2215125110001746F /* JiShaTests.m */; };
 		18C5D2DE215125110001746F /* JiShaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5D2DD215125110001746F /* JiShaUITests.m */; };
-		2F66AC26215299FD004434F5 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F66AC25215299FD004434F5 /* LoginView.m */; };
-		2FD08C292161C81200D1D03D /* JiShaRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD08C272161C81200D1D03D /* JiShaRootVC.m */; };
-		2FD08C2A2161C81200D1D03D /* JiShaRootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD08C282161C81200D1D03D /* JiShaRootVC.xib */; };
-		2FD08C392161CBB100D1D03D /* ADVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD08C372161CBB100D1D03D /* ADVC.m */; };
-		2FD08C3A2161CBB100D1D03D /* ADVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD08C382161CBB100D1D03D /* ADVC.xib */; };
-		2FD08C3E2161CEBF00D1D03D /* ADImage001.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FD08C3D2161CEBF00D1D03D /* ADImage001.png */; };
-		2FD08C542161D0E000D1D03D /* CoreAniMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD08C412161D0E000D1D03D /* CoreAniMainVC.m */; };
-		2FD08C552161D0E000D1D03D /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD08C442161D0E000D1D03D /* ClockView.m */; };
-		2FD08C562161D0E000D1D03D /* CoreAniMainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD08C452161D0E000D1D03D /* CoreAniMainVC.xib */; };
-		2FD08C572161D0E000D1D03D /* CoreTextMainVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD08C492161D0E000D1D03D /* CoreTextMainVCViewController.xib */; };
-		2FD08C582161D0E000D1D03D /* CoreTextMainVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD08C4A2161D0E000D1D03D /* CoreTextMainVCViewController.m */; };
-		2FD08C592161D0E000D1D03D /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD08C512161D0E000D1D03D /* FBShimmeringLayer.m */; };
-		2FD08C5A2161D0E000D1D03D /* SJShimmeringText.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD08C522161D0E000D1D03D /* SJShimmeringText.m */; };
-		2FD08C5B2161D0E000D1D03D /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD08C532161D0E000D1D03D /* FBShimmeringView.m */; };
 		9E8305E7C043DD564CDAF1B4 /* Pods_JiSha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EAC57F242D7C7227E04716 /* Pods_JiSha.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,8 +52,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1864C3922151D7500076254A /* JiShaBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiShaBaseViewController.h; sourceTree = "<group>"; };
-		1864C3932151D7500076254A /* JiShaBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiShaBaseViewController.m; sourceTree = "<group>"; };
+		18359A49215F6E4C00E863DB /* JiShaRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiShaRootVC.h; sourceTree = "<group>"; };
+		18359A4A215F6E4C00E863DB /* JiShaRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiShaRootVC.m; sourceTree = "<group>"; };
+		18359A4B215F6E4C00E863DB /* JiShaRootVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JiShaRootVC.xib; sourceTree = "<group>"; };
+		18359A4E215F752D00E863DB /* JiShaBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiShaBaseVC.h; sourceTree = "<group>"; };
+		18359A4F215F752D00E863DB /* JiShaBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiShaBaseVC.m; sourceTree = "<group>"; };
+		18359A50215F752D00E863DB /* JiShaBaseVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JiShaBaseVC.xib; sourceTree = "<group>"; };
+		18359A53215F75B000E863DB /* JiShaNoNavBassVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiShaNoNavBassVC.h; sourceTree = "<group>"; };
+		18359A54215F75B000E863DB /* JiShaNoNavBassVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiShaNoNavBassVC.m; sourceTree = "<group>"; };
+		18359A55215F75B000E863DB /* JiShaNoNavBassVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JiShaNoNavBassVC.xib; sourceTree = "<group>"; };
+		18359A58215F75DE00E863DB /* JiShaLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiShaLoginVC.h; sourceTree = "<group>"; };
+		18359A59215F75DE00E863DB /* JiShaLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiShaLoginVC.m; sourceTree = "<group>"; };
+		18359A5A215F75DE00E863DB /* JiShaLoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JiShaLoginVC.xib; sourceTree = "<group>"; };
+		18359A5D215F761D00E863DB /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		18359A5F215F79E800E863DB /* clock1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = clock1.jpg; path = QingViews/QingViews/Sourse/clock1.jpg; sourceTree = SOURCE_ROOT; };
+		18359A63215F7A3500E863DB /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClockView.m; path = QingViews/QingViews/CoreAni/CoreAniVC/ClockView/ClockView.m; sourceTree = SOURCE_ROOT; };
+		18359A64215F7A3500E863DB /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClockView.h; path = QingViews/QingViews/CoreAni/CoreAniVC/ClockView/ClockView.h; sourceTree = SOURCE_ROOT; };
+		18359A69215F828800E863DB /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		18359A6A215F828800E863DB /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		18359A6B215F828800E863DB /* SJShimmeringText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJShimmeringText.h; sourceTree = "<group>"; };
+		18359A6C215F828800E863DB /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		18359A6D215F828800E863DB /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
+		18359A6E215F828800E863DB /* SJShimmeringText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJShimmeringText.m; sourceTree = "<group>"; };
+		18359A6F215F828800E863DB /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
 		1864C3962151D9BF0076254A /* JiShaHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiShaHeader.h; sourceTree = "<group>"; };
 		1864C3992151DD9F0076254A /* JiShaAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiShaAlertView.h; sourceTree = "<group>"; };
 		1864C39A2151DD9F0076254A /* JiShaAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiShaAlertView.m; sourceTree = "<group>"; };
@@ -67,8 +86,6 @@
 		18C5D2B6215125100001746F /* JiSha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiSha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C5D2B9215125100001746F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18C5D2BA215125100001746F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18C5D2BC215125100001746F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18C5D2BD215125100001746F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18C5D2C0215125100001746F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18C5D2C2215125110001746F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C5D2C5215125110001746F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,30 +97,6 @@
 		18C5D2D9215125110001746F /* JiShaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiShaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C5D2DD215125110001746F /* JiShaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiShaUITests.m; sourceTree = "<group>"; };
 		18C5D2DF215125110001746F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F66AC24215299FD004434F5 /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
-		2F66AC25215299FD004434F5 /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
-		2FD08C262161C81200D1D03D /* JiShaRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiShaRootVC.h; sourceTree = "<group>"; };
-		2FD08C272161C81200D1D03D /* JiShaRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiShaRootVC.m; sourceTree = "<group>"; };
-		2FD08C282161C81200D1D03D /* JiShaRootVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JiShaRootVC.xib; sourceTree = "<group>"; };
-		2FD08C362161CBB100D1D03D /* ADVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADVC.h; sourceTree = "<group>"; };
-		2FD08C372161CBB100D1D03D /* ADVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADVC.m; sourceTree = "<group>"; };
-		2FD08C382161CBB100D1D03D /* ADVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADVC.xib; sourceTree = "<group>"; };
-		2FD08C3D2161CEBF00D1D03D /* ADImage001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ADImage001.png; sourceTree = "<group>"; };
-		2FD08C412161D0E000D1D03D /* CoreAniMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAniMainVC.m; sourceTree = "<group>"; };
-		2FD08C432161D0E000D1D03D /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
-		2FD08C442161D0E000D1D03D /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
-		2FD08C452161D0E000D1D03D /* CoreAniMainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreAniMainVC.xib; sourceTree = "<group>"; };
-		2FD08C462161D0E000D1D03D /* CoreAniMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAniMainVC.h; sourceTree = "<group>"; };
-		2FD08C492161D0E000D1D03D /* CoreTextMainVCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreTextMainVCViewController.xib; sourceTree = "<group>"; };
-		2FD08C4A2161D0E000D1D03D /* CoreTextMainVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextMainVCViewController.m; sourceTree = "<group>"; };
-		2FD08C4B2161D0E000D1D03D /* CoreTextMainVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextMainVCViewController.h; sourceTree = "<group>"; };
-		2FD08C4D2161D0E000D1D03D /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
-		2FD08C4E2161D0E000D1D03D /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
-		2FD08C4F2161D0E000D1D03D /* SJShimmeringText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJShimmeringText.h; sourceTree = "<group>"; };
-		2FD08C502161D0E000D1D03D /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
-		2FD08C512161D0E000D1D03D /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
-		2FD08C522161D0E000D1D03D /* SJShimmeringText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJShimmeringText.m; sourceTree = "<group>"; };
-		2FD08C532161D0E000D1D03D /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
 		79EAC57F242D7C7227E04716 /* Pods_JiSha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JiSha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFE16B8306E18068788F5B3 /* Pods-JiSha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiSha.release.xcconfig"; path = "Pods/Target Support Files/Pods-JiSha/Pods-JiSha.release.xcconfig"; sourceTree = "<group>"; };
 		CAA7BA16DE870D10E284C777 /* Pods-JiSha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiSha.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JiSha/Pods-JiSha.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +128,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18359A3F215F6CAC00E863DB /* Sourse */ = {
+			isa = PBXGroup;
+			children = (
+				18359A5F215F79E800E863DB /* clock1.jpg */,
+				18359A5D215F761D00E863DB /* login.png */,
+			);
+			path = Sourse;
+			sourceTree = "<group>";
+		};
+		18359A61215F7A2700E863DB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				18359A68215F828800E863DB /* FBShimmering */,
+				18359A62215F7A2E00E863DB /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		18359A62215F7A2E00E863DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18359A64215F7A3500E863DB /* ClockView.h */,
+				18359A63215F7A3500E863DB /* ClockView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18359A68215F828800E863DB /* FBShimmering */ = {
+			isa = PBXGroup;
+			children = (
+				18359A69215F828800E863DB /* FBShimmering.h */,
+				18359A6A215F828800E863DB /* FBShimmeringLayer.h */,
+				18359A6B215F828800E863DB /* SJShimmeringText.h */,
+				18359A6C215F828800E863DB /* FBShimmeringView.h */,
+				18359A6D215F828800E863DB /* FBShimmeringLayer.m */,
+				18359A6E215F828800E863DB /* SJShimmeringText.m */,
+				18359A6F215F828800E863DB /* FBShimmeringView.m */,
+			);
+			name = FBShimmering;
+			path = Views/FBShimmering;
+			sourceTree = "<group>";
+		};
 		1864C3902151D5520076254A /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,8 +182,12 @@
 		1864C3912151D7200076254A /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				1864C3922151D7500076254A /* JiShaBaseViewController.h */,
-				1864C3932151D7500076254A /* JiShaBaseViewController.m */,
+				18359A4E215F752D00E863DB /* JiShaBaseVC.h */,
+				18359A4F215F752D00E863DB /* JiShaBaseVC.m */,
+				18359A50215F752D00E863DB /* JiShaBaseVC.xib */,
+				18359A53215F75B000E863DB /* JiShaNoNavBassVC.h */,
+				18359A54215F75B000E863DB /* JiShaNoNavBassVC.m */,
+				18359A55215F75B000E863DB /* JiShaNoNavBassVC.xib */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -204,22 +243,19 @@
 		18C5D2B8215125100001746F /* JiSha */ = {
 			isa = PBXGroup;
 			children = (
-				2FD08C3F2161D0E000D1D03D /* CoreAni */,
-				2FD08C472161D0E000D1D03D /* CoreText */,
-				2FD08C3B2161CE7F00D1D03D /* Sourse */,
+				18359A61215F7A2700E863DB /* UI */,
+				18359A3F215F6CAC00E863DB /* Sourse */,
 				2F66AC23215299B0004434F5 /* Login */,
 				1864C3982151DB840076254A /* Catagary */,
 				1864C3902151D5520076254A /* Config */,
 				1864C3912151D7200076254A /* Base */,
 				1864C3952151D7630076254A /* Common */,
 				1864C3972151D9D50076254A /* PublicView */,
+				18359A49215F6E4C00E863DB /* JiShaRootVC.h */,
+				18359A4A215F6E4C00E863DB /* JiShaRootVC.m */,
+				18359A4B215F6E4C00E863DB /* JiShaRootVC.xib */,
 				18C5D2B9215125100001746F /* AppDelegate.h */,
 				18C5D2BA215125100001746F /* AppDelegate.m */,
-				2FD08C262161C81200D1D03D /* JiShaRootVC.h */,
-				2FD08C272161C81200D1D03D /* JiShaRootVC.m */,
-				2FD08C282161C81200D1D03D /* JiShaRootVC.xib */,
-				18C5D2BC215125100001746F /* ViewController.h */,
-				18C5D2BD215125100001746F /* ViewController.m */,
 				18C5D2BF215125100001746F /* Main.storyboard */,
 				18C5D2C2215125110001746F /* Assets.xcassets */,
 				18C5D2C4215125110001746F /* LaunchScreen.storyboard */,
@@ -259,92 +295,11 @@
 		2F66AC23215299B0004434F5 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				2F66AC24215299FD004434F5 /* LoginView.h */,
-				2F66AC25215299FD004434F5 /* LoginView.m */,
-				2FD08C362161CBB100D1D03D /* ADVC.h */,
-				2FD08C372161CBB100D1D03D /* ADVC.m */,
-				2FD08C382161CBB100D1D03D /* ADVC.xib */,
+				18359A58215F75DE00E863DB /* JiShaLoginVC.h */,
+				18359A59215F75DE00E863DB /* JiShaLoginVC.m */,
+				18359A5A215F75DE00E863DB /* JiShaLoginVC.xib */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		2FD08C3B2161CE7F00D1D03D /* Sourse */ = {
-			isa = PBXGroup;
-			children = (
-				2FD08C3C2161CEA300D1D03D /* image */,
-			);
-			path = Sourse;
-			sourceTree = "<group>";
-		};
-		2FD08C3C2161CEA300D1D03D /* image */ = {
-			isa = PBXGroup;
-			children = (
-				2FD08C3D2161CEBF00D1D03D /* ADImage001.png */,
-			);
-			path = image;
-			sourceTree = "<group>";
-		};
-		2FD08C3F2161D0E000D1D03D /* CoreAni */ = {
-			isa = PBXGroup;
-			children = (
-				2FD08C402161D0E000D1D03D /* CoreAniVC */,
-			);
-			name = CoreAni;
-			path = QingViews/QingViews/CoreAni;
-			sourceTree = SOURCE_ROOT;
-		};
-		2FD08C402161D0E000D1D03D /* CoreAniVC */ = {
-			isa = PBXGroup;
-			children = (
-				2FD08C412161D0E000D1D03D /* CoreAniMainVC.m */,
-				2FD08C422161D0E000D1D03D /* ClockView */,
-				2FD08C452161D0E000D1D03D /* CoreAniMainVC.xib */,
-				2FD08C462161D0E000D1D03D /* CoreAniMainVC.h */,
-			);
-			path = CoreAniVC;
-			sourceTree = "<group>";
-		};
-		2FD08C422161D0E000D1D03D /* ClockView */ = {
-			isa = PBXGroup;
-			children = (
-				2FD08C432161D0E000D1D03D /* ClockView.h */,
-				2FD08C442161D0E000D1D03D /* ClockView.m */,
-			);
-			path = ClockView;
-			sourceTree = "<group>";
-		};
-		2FD08C472161D0E000D1D03D /* CoreText */ = {
-			isa = PBXGroup;
-			children = (
-				2FD08C482161D0E000D1D03D /* CoreTextVC */,
-				2FD08C4C2161D0E000D1D03D /* FBShimmering */,
-			);
-			name = CoreText;
-			path = QingViews/QingViews/CoreText;
-			sourceTree = SOURCE_ROOT;
-		};
-		2FD08C482161D0E000D1D03D /* CoreTextVC */ = {
-			isa = PBXGroup;
-			children = (
-				2FD08C492161D0E000D1D03D /* CoreTextMainVCViewController.xib */,
-				2FD08C4A2161D0E000D1D03D /* CoreTextMainVCViewController.m */,
-				2FD08C4B2161D0E000D1D03D /* CoreTextMainVCViewController.h */,
-			);
-			path = CoreTextVC;
-			sourceTree = "<group>";
-		};
-		2FD08C4C2161D0E000D1D03D /* FBShimmering */ = {
-			isa = PBXGroup;
-			children = (
-				2FD08C4D2161D0E000D1D03D /* FBShimmering.h */,
-				2FD08C4E2161D0E000D1D03D /* FBShimmeringLayer.h */,
-				2FD08C4F2161D0E000D1D03D /* SJShimmeringText.h */,
-				2FD08C502161D0E000D1D03D /* FBShimmeringView.h */,
-				2FD08C512161D0E000D1D03D /* FBShimmeringLayer.m */,
-				2FD08C522161D0E000D1D03D /* SJShimmeringText.m */,
-				2FD08C532161D0E000D1D03D /* FBShimmeringView.m */,
-			);
-			path = FBShimmering;
 			sourceTree = "<group>";
 		};
 		809FF0B9FEA78670417DA6F3 /* Frameworks */ = {
@@ -461,14 +416,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FD08C572161D0E000D1D03D /* CoreTextMainVCViewController.xib in Resources */,
-				2FD08C2A2161C81200D1D03D /* JiShaRootVC.xib in Resources */,
-				2FD08C3A2161CBB100D1D03D /* ADVC.xib in Resources */,
+				18359A4D215F6E4C00E863DB /* JiShaRootVC.xib in Resources */,
+				18359A60215F79E800E863DB /* clock1.jpg in Resources */,
+				18359A52215F752D00E863DB /* JiShaBaseVC.xib in Resources */,
+				18359A5C215F75DE00E863DB /* JiShaLoginVC.xib in Resources */,
+				18359A57215F75B000E863DB /* JiShaNoNavBassVC.xib in Resources */,
 				18C5D2C6215125110001746F /* LaunchScreen.storyboard in Resources */,
-				2FD08C3E2161CEBF00D1D03D /* ADImage001.png in Resources */,
 				18C5D2C3215125110001746F /* Assets.xcassets in Resources */,
+				18359A5E215F761D00E863DB /* login.png in Resources */,
 				18C5D2C1215125100001746F /* Main.storyboard in Resources */,
-				2FD08C562161D0E000D1D03D /* CoreAniMainVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,19 +491,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1864C3A12151DE8D0076254A /* UIColor+HexColor.m in Sources */,
-				18C5D2BE215125100001746F /* ViewController.m in Sources */,
-				2F66AC26215299FD004434F5 /* LoginView.m in Sources */,
-				2FD08C5B2161D0E000D1D03D /* FBShimmeringView.m in Sources */,
-				1864C3942151D7500076254A /* JiShaBaseViewController.m in Sources */,
-				2FD08C592161D0E000D1D03D /* FBShimmeringLayer.m in Sources */,
+				18359A70215F828800E863DB /* FBShimmeringLayer.m in Sources */,
+				18359A65215F7A3500E863DB /* ClockView.m in Sources */,
+				18359A5B215F75DE00E863DB /* JiShaLoginVC.m in Sources */,
 				18C5D2C9215125110001746F /* main.m in Sources */,
-				2FD08C392161CBB100D1D03D /* ADVC.m in Sources */,
-				2FD08C292161C81200D1D03D /* JiShaRootVC.m in Sources */,
-				2FD08C542161D0E000D1D03D /* CoreAniMainVC.m in Sources */,
-				2FD08C582161D0E000D1D03D /* CoreTextMainVCViewController.m in Sources */,
+				18359A51215F752D00E863DB /* JiShaBaseVC.m in Sources */,
+				18359A71215F828800E863DB /* SJShimmeringText.m in Sources */,
+				18359A72215F828800E863DB /* FBShimmeringView.m in Sources */,
+				18359A56215F75B000E863DB /* JiShaNoNavBassVC.m in Sources */,
+				18359A4C215F6E4C00E863DB /* JiShaRootVC.m in Sources */,
 				1864C39E2151DE760076254A /* JiShaConfig.m in Sources */,
-				2FD08C552161D0E000D1D03D /* ClockView.m in Sources */,
-				2FD08C5A2161D0E000D1D03D /* SJShimmeringText.m in Sources */,
 				18C5D2BB215125100001746F /* AppDelegate.m in Sources */,
 				1864C39B2151DD9F0076254A /* JiShaAlertView.m in Sources */,
 			);
