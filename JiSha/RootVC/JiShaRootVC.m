@@ -10,6 +10,7 @@
 #import <AVOSCloud/AVOSCloud.h>
 #import "JiShaLoginVC.h"
 #import "ClockView.h"
+#import "JiShaBaseVC.h"
 
 @interface JiShaRootVC ()
 @property (weak, nonatomic) IBOutlet UIButton *dataUpdateBtn;
@@ -39,6 +40,11 @@
 - (void)testAVOSCloud{
     
 }
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+//    [self.navigationController pushViewController:[JiShaBaseVC new] animated:YES];
+}
+
 - (IBAction)dataUpdate:(UIButton *)sender {
     AVObject *testObject = [AVObject objectWithClassName:@"dzj"];
     [testObject setObject:@"dzjzzz" forKey:@"momey"];
