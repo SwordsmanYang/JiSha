@@ -19,6 +19,12 @@
     return self;
 }
 
+//- (void)setFrame:(CGRect)frame{
+//    [self layoutUI];
+//    self.layer.masksToBounds = YES;
+//    self.layer.cornerRadius = 100;
+//}
+
 - (void)layoutUI{
     CALayer *dialLayer= [[CALayer alloc] init];
     dialLayer.bounds = CGRectMake(0, 0, 150, 150);
