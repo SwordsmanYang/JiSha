@@ -24,6 +24,10 @@
 		1864C39B2151DD9F0076254A /* JiShaAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1864C39A2151DD9F0076254A /* JiShaAlertView.m */; };
 		1864C39E2151DE760076254A /* JiShaConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1864C39D2151DE760076254A /* JiShaConfig.m */; };
 		1864C3A12151DE8D0076254A /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1864C3A02151DE8D0076254A /* UIColor+HexColor.m */; };
+		189211F2216F2BB7003A6C27 /* SharedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 189211F0216F2BB7003A6C27 /* SharedVC.m */; };
+		189211F3216F2BB7003A6C27 /* SharedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189211F1216F2BB7003A6C27 /* SharedVC.xib */; };
+		189211FA216F307D003A6C27 /* MyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 189211F8216F307D003A6C27 /* MyVC.m */; };
+		189211FB216F307D003A6C27 /* MyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189211F9216F307D003A6C27 /* MyVC.xib */; };
 		18C5D2BB215125100001746F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5D2BA215125100001746F /* AppDelegate.m */; };
 		18C5D2C1215125100001746F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C5D2BF215125100001746F /* Main.storyboard */; };
 		18C5D2C3215125110001746F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C5D2C2215125110001746F /* Assets.xcassets */; };
@@ -82,6 +86,12 @@
 		1864C39D2151DE760076254A /* JiShaConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiShaConfig.m; sourceTree = "<group>"; };
 		1864C39F2151DE8D0076254A /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
 		1864C3A02151DE8D0076254A /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		189211EF216F2BB7003A6C27 /* SharedVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedVC.h; sourceTree = "<group>"; };
+		189211F0216F2BB7003A6C27 /* SharedVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharedVC.m; sourceTree = "<group>"; };
+		189211F1216F2BB7003A6C27 /* SharedVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SharedVC.xib; sourceTree = "<group>"; };
+		189211F7216F307D003A6C27 /* MyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyVC.h; sourceTree = "<group>"; };
+		189211F8216F307D003A6C27 /* MyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyVC.m; sourceTree = "<group>"; };
+		189211F9216F307D003A6C27 /* MyVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyVC.xib; sourceTree = "<group>"; };
 		18BC4E0221548DC90065B27A /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C5D2B6215125100001746F /* JiSha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiSha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C5D2B9215125100001746F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -218,6 +228,22 @@
 			path = Catagary;
 			sourceTree = "<group>";
 		};
+		189211EE216F2B4E003A6C27 /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				18359A49215F6E4C00E863DB /* JiShaRootVC.h */,
+				18359A4A215F6E4C00E863DB /* JiShaRootVC.m */,
+				18359A4B215F6E4C00E863DB /* JiShaRootVC.xib */,
+				189211EF216F2BB7003A6C27 /* SharedVC.h */,
+				189211F0216F2BB7003A6C27 /* SharedVC.m */,
+				189211F1216F2BB7003A6C27 /* SharedVC.xib */,
+				189211F7216F307D003A6C27 /* MyVC.h */,
+				189211F8216F307D003A6C27 /* MyVC.m */,
+				189211F9216F307D003A6C27 /* MyVC.xib */,
+			);
+			path = RootVC;
+			sourceTree = "<group>";
+		};
 		18C5D2AD215125100001746F = {
 			isa = PBXGroup;
 			children = (
@@ -251,9 +277,7 @@
 				1864C3912151D7200076254A /* Base */,
 				1864C3952151D7630076254A /* Common */,
 				1864C3972151D9D50076254A /* PublicView */,
-				18359A49215F6E4C00E863DB /* JiShaRootVC.h */,
-				18359A4A215F6E4C00E863DB /* JiShaRootVC.m */,
-				18359A4B215F6E4C00E863DB /* JiShaRootVC.xib */,
+				189211EE216F2B4E003A6C27 /* RootVC */,
 				18C5D2B9215125100001746F /* AppDelegate.h */,
 				18C5D2BA215125100001746F /* AppDelegate.m */,
 				18C5D2BF215125100001746F /* Main.storyboard */,
@@ -417,8 +441,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18359A4D215F6E4C00E863DB /* JiShaRootVC.xib in Resources */,
+				189211FB216F307D003A6C27 /* MyVC.xib in Resources */,
 				18359A60215F79E800E863DB /* clock1.jpg in Resources */,
 				18359A52215F752D00E863DB /* JiShaBaseVC.xib in Resources */,
+				189211F3216F2BB7003A6C27 /* SharedVC.xib in Resources */,
 				18359A5C215F75DE00E863DB /* JiShaLoginVC.xib in Resources */,
 				18359A57215F75B000E863DB /* JiShaNoNavBassVC.xib in Resources */,
 				18C5D2C6215125110001746F /* LaunchScreen.storyboard in Resources */,
@@ -495,6 +521,7 @@
 				18359A65215F7A3500E863DB /* ClockView.m in Sources */,
 				18359A5B215F75DE00E863DB /* JiShaLoginVC.m in Sources */,
 				18C5D2C9215125110001746F /* main.m in Sources */,
+				189211FA216F307D003A6C27 /* MyVC.m in Sources */,
 				18359A51215F752D00E863DB /* JiShaBaseVC.m in Sources */,
 				18359A71215F828800E863DB /* SJShimmeringText.m in Sources */,
 				18359A72215F828800E863DB /* FBShimmeringView.m in Sources */,
@@ -503,6 +530,7 @@
 				1864C39E2151DE760076254A /* JiShaConfig.m in Sources */,
 				18C5D2BB215125100001746F /* AppDelegate.m in Sources */,
 				1864C39B2151DD9F0076254A /* JiShaAlertView.m in Sources */,
+				189211F2216F2BB7003A6C27 /* SharedVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

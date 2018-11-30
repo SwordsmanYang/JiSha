@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JiShaBaseVC.h"
 
-@interface JiShaRootVC : UIViewController
+@interface JiShaRootVC : JiShaBaseVC
 
 @end
