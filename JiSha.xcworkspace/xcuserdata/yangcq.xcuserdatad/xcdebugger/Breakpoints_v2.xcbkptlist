@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QingViews/QingViews/CoreAni/CoreAniVC/ClockView/ClockView.m"
-            timestampString = "560082402.985171"
+            timestampString = "562901311.0408109"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
             endingLineNumber = "29"
-            landmarkName = "ClockView"
-            landmarkType = "3">
+            landmarkName = "-layoutUI"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

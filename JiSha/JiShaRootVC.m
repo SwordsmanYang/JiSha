@@ -33,6 +33,9 @@
     [self.navigationController pushViewController:[JiShaLoginVC new] animated:NO];
     ClockView *clockView = [[ClockView alloc] init];
     clockView.frame = CGRectMake(self.view.frame.size.width / 2 - 100, 300, 200, 200);
+    clockView.layer.cornerRadius = 100;
+    clockView.backgroundColor = [UIColor redColor];
+    clockView.layer.masksToBounds = YES;
     [self.view addSubview:clockView];
 }
 
